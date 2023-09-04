@@ -17,6 +17,7 @@ public class Strela : MonoBehaviour
     int x = 1;
     int initialIncline = 0;
     // Start is called before the first frame update
+    
     void Start()
     {
        if(pivot2.activeSelf)
@@ -26,20 +27,23 @@ public class Strela : MonoBehaviour
         }
 
         newPosition = new Vector3(0, 0, initialIncline);
+        transform.eulerAngles = newPosition;
+
         Debug.Log("Initial incline" + initialIncline);
     }
 
     // Update is called once per frame
     void Update()
     {
-     
+        
+   
         if (Input.GetKey(KeyCode.W))
         {
             rot += x;
             newPosition = new Vector3(0, 0, rot+initialIncline);
         transform.eulerAngles = newPosition;
             Debug.Log(rot+initialIncline +" :rotacija");
-           
+            
           
        }
         
@@ -49,7 +53,7 @@ public class Strela : MonoBehaviour
             newPosition = new Vector3(0, 0, rot+initialIncline);
             transform.eulerAngles = newPosition;
             Debug.Log(rot+initialIncline + " :rotacija");
-           
+            
         }
         
     }

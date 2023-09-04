@@ -12,28 +12,12 @@ public class PowerFill : MonoBehaviour
     bool direction = false;
     Vector3 NullSetter = new Vector3(0.001f, 1, 1);
     Vector3 ObjectScale;
-
-/*
-    void Awake()
-    {
-        pivo = GameObject.FindWithTag("pivot2");
-        if (pivo != null)
-        {
-            Debug.Log("pivo is not null");
-           // pivo_script = pivo.GetComponent<CubeScript>();
-        }
-        pivo2 = GameObject.FindWithTag("pivot");
-        if (pivo2 != null)
-        {
-            Debug.Log("pivo2 is not null");
-            // pivo_script = pivo.GetComponent<CubeScript>();
-        }
-    }
-*/
+    
+    
     // Start is called before the first frame update
     void Start()
     {
-        
+   
         transform.localScale = new Vector3 (0.0f, 2.8f, 2.8f);
     }
 
@@ -76,7 +60,11 @@ public class PowerFill : MonoBehaviour
         ObjectScale.y = 2.8f;
         ObjectScale.z = 2.8f;
         transform.localScale = ObjectScale;
+      
+      
         pivo1.SetActive(true);
+       
+       
         pivo.SetActive(false);
     }
 

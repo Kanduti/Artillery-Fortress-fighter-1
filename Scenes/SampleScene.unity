@@ -1642,6 +1642,12 @@ MonoBehaviour:
   gnex: {fileID: 0}
   gt1: {fileID: 0}
   gt2: {fileID: 0}
+  bd1: {fileID: 0}
+  bd2: {fileID: 0}
+  bdn: {fileID: 0}
+  gd1: {fileID: 0}
+  gd2: {fileID: 0}
+  gdn: {fileID: 0}
   bres: {fileID: 0}
   bres1: {fileID: 0}
   bres2: {fileID: 0}
@@ -1666,6 +1672,12 @@ MonoBehaviour:
   gnex: {fileID: 1013334159}
   gt1: {fileID: 443279620}
   gt2: {fileID: 1528869527}
+  bd1: {fileID: 32512159}
+  bd2: {fileID: 215391786}
+  bdn: {fileID: 1918806594}
+  gd1: {fileID: 1108649226}
+  gd2: {fileID: 336048435}
+  gdn: {fileID: 1772498987}
   bres: {fileID: 13413401}
   bres1: {fileID: 2052522056}
   bres2: {fileID: 61805922}
@@ -3882,7 +3894,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: d10b23c508e558f448fa02e17619efb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
